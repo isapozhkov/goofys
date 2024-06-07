@@ -23,7 +23,7 @@ import (
 	"sync"
 
 	"github.com/jacobsa/fuse"
-	"github.com/shirou/gopsutil/mem"
+	"github.com/shirou/gopsutil/v4/mem"
 )
 
 type BufferPool struct {
